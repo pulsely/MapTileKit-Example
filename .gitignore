@@ -1,0 +1,38 @@
+# Xcode user-specific state (per-machine, not meant to be shared)
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+# Legacy Xcode files (pre-Xcode 4, harmless to keep ignoring)
+*.moved-aside
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.hmap
+
+# Build products
+build/
+DerivedData/
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# CocoaPods / Carthage (unused here, but harmless if that ever changes)
+Pods/
+Carthage/Build/
+
+# macOS
+.DS_Store
+
+CLAUDE.md

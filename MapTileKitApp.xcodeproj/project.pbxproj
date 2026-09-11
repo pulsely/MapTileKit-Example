@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D8DE744876778CC31606DF6 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC721C3150B63645BFF858D2 /* MapViewController.swift */; };
+		9F25FCDA14AA2CE70029436D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F25FCD914AA2CE70029436D /* UIKit.framework */; };
+		9F25FCDC14AA2CE70029436D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F25FCDB14AA2CE70029436D /* Foundation.framework */; };
+		9F25FCDE14AA2CE70029436D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F25FCDD14AA2CE70029436D /* CoreGraphics.framework */; };
+		9F25FCE614AA2CE70029436D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F25FCE414AA2CE70029436D /* InfoPlist.strings */; };
+		9F25FD0814AA2DA80029436D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F25FD0714AA2DA80029436D /* MapKit.framework */; };
+		9F4F8B73305467BE00494042 /* MapTileKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9F4F8B72305467BE00494042 /* MapTileKit */; };
+		9F6F6B4630544F1000C79B2E /* countries.mbtiles in Resources */ = {isa = PBXBuildFile; fileRef = 9F6F6B4530544F1000C79B2E /* countries.mbtiles */; };
+		C9BA71DF1271BE77DDFA45F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3D7E4BE1FD147E474E29EB /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F25FCD514AA2CE60029436D /* MapTileKitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapTileKitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F25FCD914AA2CE70029436D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9F25FCDB14AA2CE70029436D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9F25FCDD14AA2CE70029436D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9F25FCE314AA2CE70029436D /* MapTileKitApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MapTileKitApp-Info.plist"; sourceTree = "<group>"; };
+		9F25FCE514AA2CE70029436D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9F25FD0714AA2DA80029436D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9F286A5F3054784300D954C6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9F6F6B4530544F1000C79B2E /* countries.mbtiles */ = {isa = PBXFileReference; lastKnownFileType = file; path = countries.mbtiles; sourceTree = "<group>"; };
+		CA3D7E4BE1FD147E474E29EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC721C3150B63645BFF858D2 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F25FCD214AA2CE60029436D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F4F8B73305467BE00494042 /* MapTileKit in Frameworks */,
+				9F25FD0814AA2DA80029436D /* MapKit.framework in Frameworks */,
+				9F25FCDA14AA2CE70029436D /* UIKit.framework in Frameworks */,
+				9F25FCDC14AA2CE70029436D /* Foundation.framework in Frameworks */,
+				9F25FCDE14AA2CE70029436D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F25FCCA14AA2CE60029436D = {
+			isa = PBXGroup;
+			children = (
+				9F286A5F3054784300D954C6 /* README.md */,
+				9F25FCE114AA2CE70029436D /* MapTileKitApp */,
+				9F25FCD814AA2CE70029436D /* Frameworks */,
+				9F25FCD614AA2CE60029436D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F25FCD614AA2CE60029436D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F25FCD514AA2CE60029436D /* MapTileKitApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F25FCD814AA2CE70029436D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F25FD0714AA2DA80029436D /* MapKit.framework */,
+				9F25FCD914AA2CE70029436D /* UIKit.framework */,
+				9F25FCDB14AA2CE70029436D /* Foundation.framework */,
+				9F25FCDD14AA2CE70029436D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F25FCE114AA2CE70029436D /* MapTileKitApp */ = {
+			isa = PBXGroup;
+			children = (
+				9F6F6B4530544F1000C79B2E /* countries.mbtiles */,
+				CA3D7E4BE1FD147E474E29EB /* AppDelegate.swift */,
+				DC721C3150B63645BFF858D2 /* MapViewController.swift */,
+				9F25FCE214AA2CE70029436D /* Supporting Files */,
+			);
+			path = MapTileKitApp;
+			sourceTree = "<group>";
+		};
+		9F25FCE214AA2CE70029436D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F25FCE314AA2CE70029436D /* MapTileKitApp-Info.plist */,
+				9F25FCE414AA2CE70029436D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F25FCD414AA2CE60029436D /* MapTileKitApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F25FD0414AA2CE70029436D /* Build configuration list for PBXNativeTarget "MapTileKitApp" */;
+			buildPhases = (
+				9F25FCD114AA2CE60029436D /* Sources */,
+				9F25FCD214AA2CE60029436D /* Frameworks */,
+				9F25FCD314AA2CE60029436D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapTileKitApp;
+			packageProductDependencies = (
+				9F4F8B72305467BE00494042 /* MapTileKit */,
+			);
+			productName = MapTileKitApp;
+			productReference = 9F25FCD514AA2CE60029436D /* MapTileKitApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F25FCCC14AA2CE60029436D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				TargetAttributes = {
+					9F25FCD414AA2CE60029436D = {
+						DevelopmentTeam = 362TGD3M6V;
+					};
+				};
+			};
+			buildConfigurationList = 9F25FCCF14AA2CE60029436D /* Build configuration list for PBXProject "MapTileKitApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 9F25FCCA14AA2CE60029436D;
+			packageReferences = (
+				9F4F8B71305467BE00494042 /* XCRemoteSwiftPackageReference "MapTileKit" */,
+			);
+			productRefGroup = 9F25FCD614AA2CE60029436D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F25FCD414AA2CE60029436D /* MapTileKitApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F25FCD314AA2CE60029436D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F25FCE614AA2CE70029436D /* InfoPlist.strings in Resources */,
+				9F6F6B4630544F1000C79B2E /* countries.mbtiles in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F25FCD114AA2CE60029436D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BA71DF1271BE77DDFA45F3 /* AppDelegate.swift in Sources */,
+				5D8DE744876778CC31606DF6 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9F25FCE414AA2CE70029436D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F25FCE514AA2CE70029436D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F25FD0214AA2CE70029436D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F25FD0314AA2CE70029436D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F25FD0514AA2CE70029436D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 362TGD3M6V;
+				INFOPLIST_FILE = "MapTileKitApp/MapTileKitApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pulsely.maptilekitapp.example1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9F25FD0614AA2CE70029436D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 362TGD3M6V;
+				INFOPLIST_FILE = "MapTileKitApp/MapTileKitApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pulsely.maptilekitapp.example1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F25FCCF14AA2CE60029436D /* Build configuration list for PBXProject "MapTileKitApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F25FD0214AA2CE70029436D /* Debug */,
+				9F25FD0314AA2CE70029436D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F25FD0414AA2CE70029436D /* Build configuration list for PBXNativeTarget "MapTileKitApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F25FD0514AA2CE70029436D /* Debug */,
+				9F25FD0614AA2CE70029436D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9F4F8B71305467BE00494042 /* XCRemoteSwiftPackageReference "MapTileKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pulsely/MapTileKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9F4F8B72305467BE00494042 /* MapTileKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F4F8B71305467BE00494042 /* XCRemoteSwiftPackageReference "MapTileKit" */;
+			productName = MapTileKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9F25FCCC14AA2CE60029436D /* Project object */;
+}
